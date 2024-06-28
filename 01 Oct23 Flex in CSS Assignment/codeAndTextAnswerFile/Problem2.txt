@@ -1,0 +1,25 @@
+
+1. **justify-content**:
+   - This property defines how the browser distributes space between and around content items along the main axis (horizontal, if `flex-direction` is set to row, or vertical if set to column) within a flex container.
+   - Values include `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, and `space-evenly`.
+
+2. **align-items**:
+   - This property defines how flex items are aligned along the cross axis (perpendicular to the main axis) within a flex container.
+   - It works similarly to `justify-content`, but it applies to the cross axis instead of the main axis.
+   - Values include `flex-start`, `flex-end`, `center`, `baseline`, and `stretch`.
+
+3. **gap**:
+   - This property sets the gap (also known as gutter) between flex items in a flex container.
+   - It's a shorthand property for setting both `row-gap` and `column-gap` (or `gap` in a grid container) in a single declaration.
+   - It simplifies the process of creating space between flex items without having to use margin or padding on individual items.
+
+4. **flex-direction**:
+   - This property specifies the direction in which flex items are placed in the flex container.
+   - It determines the main axis along which flex items are laid out.
+   - Values include `row`, `row-reverse`, `column`, and `column-reverse`.
+
+5. **flex-wrap**:
+   - This property controls whether flex items are forced onto a single line or can wrap onto multiple lines within the flex container when they overflow the container's main axis.
+   - It allows you to control how flex items flow within the container.
+   - Values include `nowrap`, `wrap`, and `wrap-reverse`.
+
